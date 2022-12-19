@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+ :root {            
+  --text-color: #201111;
+  --bg-color:#00b4d8; 
+  --color-secundario:#da84c0; 
+  --color-terciario:#43e6d8; 
+  --color-cuaternario:#d6993e; 
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+/* CAJAS */
+
+#contenedor{
+    background-color: var(--color-terciario);
+    width: 50%;
+    margin: 1rem auto;
+    height: fit-content;
+    border: 2px solid var(--color-cuaternario);
+}
+
+.subContenedor{
+      width: 70%;
+      border: 2px solid #311e1e; 
+      margin: 0.5rem auto;
+      padding: 1rem;
+}
+
+.subContenedor__opciones{
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+     margin: 1rem auto;
+     border: 2px solid #6a994e;
+}
+
+.subContenedor__opcion{  
+    margin: 1rem;
+    line-height: 2rem;
+    border: none;
+    outline: none;
+    background-color: var(--color-secundario);
+    color: var(--text-color);
+}
+
+/* ELEMENTOS */
+
+#subContenedor__titulo{
+    text-align: center;
+    color: var(--text-color);
+    font-family: 'Noto Sans JP', sans-serif;
+   
+}
+
+#subContenedor__pregunta{
+  text-align: center;
+  color: var(--text-color);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#subContenedor__descripcion{
+ text-align: justify;
+ color: var(--text-color);
+ font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/*BARRA DE PROGRESO*/
+
+#barra{
+      width: 80%;
+      margin: 0.2rem auto;
+      display: block;
+        }
